@@ -23,8 +23,8 @@ var completeCmd = &cobra.Command{
 	},
 }
 
-var t = Task{
-}
+// var t = Task{
+// }
 func init() {
 	rootCmd.AddCommand(completeCmd)
 }
